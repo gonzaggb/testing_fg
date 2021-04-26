@@ -38,8 +38,8 @@ ancho (% de pantalla que ocupa), el tamaño máximo que quiero ocupe y los marge
 .header{
     background-color: black;
     color:white;
-    position: sticky;
-    top: 0;
+    position: sticky; /*para hacer el menu pegajoso*/
+    top: 0;/*para que quede pegado a la parte superior*/
 }
 
 .header a{
