@@ -78,6 +78,7 @@ ancho (% de pantalla que ocupa), el tamaño máximo que quiero ocupe y los marge
 
 .desplegagle li {
     float: left;
+    
 }
 .inner_nav li ul{
     display:none ;

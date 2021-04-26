@@ -15,10 +15,10 @@ app.get('/',(req,res) => {
 
 app.get('/us', (req, res) => {
 
-    res.sendFile(path.resolve(__dirname, '/views/us.html'))
+    res.sendFile(path.resolve(__dirname, './views/us.html'))
 })
 
 app.get('/login', (req, res) => {
 
-    res.sendFile(path.resolve(__dirname, '/views/login.html'))
+    res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
