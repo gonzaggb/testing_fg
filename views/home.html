@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device=width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/styles.css"> <!---Al estar declarado en app.js el path.resolve(__dirname,'./public'), solo se indica lo que sigue a la ruta-->
         <title>Focal Glow</title>
+        <link rel="icon" href="/icon/logo.ico">
     </head>
     <header class="header">
 <div class="container logo-nav-container">
-    <p><a href="/testing_fg/views/home.html"><img class="logo" src="/img/kes_sey__15_.png"></a></p>
+    <p><a href="/"><img class="logo" src="/img/kes_sey__15_.png"></a></p>
     <nav class="navigation">
         <ul class='inner_nav'>
-        
+            <li><a href="#">Ofertas</a>
+            </li>
             <li><a href="#">Categorias</a>
                 <ul class='desplegable'>
                     <li><a href="">Plafón</a></li>
@@ -24,10 +26,10 @@
                     <li><a href="">Exterior</a></li>
                 </ul>
             </li>
-            <li><a href="/testing_fg/views/us.html">Nosotros</a></li>
+            <li><a href="/us">Nosotros</a></li>
             <li><a href="#">Usuario</a>
                 <ul class='desplegable'>
-                    <li><a href="/testing_fg/views/login.html">Iniciar Sesión</a></li>
+                    <li><a href="/login">Iniciar Sesión</a></li>
                     <li><a href="">Registrate</a></li>
                 </ul>
             </li>
@@ -48,13 +50,23 @@
         </div>
     </section>
     <main class="main">
-        <div class="container">
-            <h1>Hola soy el titulo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odio nemo placeat ab recusandae, perspiciatis cum aliquid. Pariatur eligendi non doloribus esse aspernatur, dolorem voluptates molestiae porro accusantium nesciunt ut.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odio nemo placeat ab recusandae, perspiciatis cum aliquid. Pariatur eligendi non doloribus esse aspernatur, dolorem voluptates molestiae porro accusantium nesciunt ut.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odio nemo placeat ab recusandae, perspiciatis cum aliquid. Pariatur eligendi non doloribus esse aspernatur, dolorem voluptates molestiae porro accusantium nesciunt ut.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odio nemo placeat ab recusandae, perspiciatis cum aliquid. Pariatur eligendi non doloribus esse aspernatur, dolorem voluptates molestiae porro accusantium nesciunt ut.</p>
-    </div>
+        <section class="categorias">
+            <div>
+                <img class="zoom" src="/img/plafon.jpg" alt="Plafon">
+                <img class="zoom" src="/img/aplique.jpg" alt="Aplique">
+                <img class="zoom" src="/img/pie.jpg" alt="Pie">
+                <img class="zoom" src="/img/colgante.jpg" alt="Colgante">
+            </div>
+            <div>
+                <img class="zoom" src="/img/spot-embutido.jpg" alt="Spot">
+                <img class="zoom" src="/img/sistema.jpg" alt="Sistema">
+                <img class="zoom" src="/img/mesa.jpg" alt="mesa">
+                <img class="zoom"src="/img/exterior.jpg" alt="Exterior">
+            </div>
+        </section>       
+        
+                   
+  
     </main>
     <body>
 
@@ -66,4 +78,9 @@
     </div>
 </footer>
 
-</html>
+</html>    
+        
+        
+        
+        
+    

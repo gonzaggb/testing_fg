@@ -136,6 +136,44 @@ ancho (% de pantalla que ocupa), el tamaño máximo que quiero ocupe y los marge
     70%{margin-left: -270%;}
     100%{margin-left: -270%;}
 }
+/*Aca empieza la seccion de Categoria*/
+
+.main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;    
+    align-self: center;        
+}
+
+.categorias div{
+    
+    align-self: center;
+}
+
+
+.categorias div img{
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    align-self: center;
+}
+/*hover zoom*/
+.zoom{
+    transition: transform .1s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+    
   
+    
+    
+    
 
 
