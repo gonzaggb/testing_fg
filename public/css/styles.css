@@ -87,7 +87,9 @@ ancho (% de pantalla que ocupa), el tamaño máximo que quiero ocupe y los marge
     background-color: black;
 }
 .inner_nav li:hover > ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
